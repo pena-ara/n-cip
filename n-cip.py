@@ -71,7 +71,7 @@ N-CIP adalah tool sederhana untuk mengecek ip dengan bantuan api dari ipgeolocat
             print("Device = ", ipuser_device['name'])
             print("Type   = ", ipuser_device['type'])
             print("OS     = ", ipuser_os['name'])
-            print(f"Lokasi = https://www.openstreetmap.org/#map=15/{json_ipgeo['latitude']}/{json_ipgeo['longitude']}" )
+            print(f"Lokasi = https://www.openstreetmap.org/#map=15/{json_ip['latitude']}/{json_ip['longitude']}" )
             print("\n[0] untuk kembali")
             cip = input("> ")
             if cip == "0":
